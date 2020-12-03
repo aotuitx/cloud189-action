@@ -34,12 +34,12 @@ def main():
         "Host" : "m.cloud.189.cn",
         "Accept-Encoding" : "gzip, deflate",
     }
-    response = s.get(url,headers=headers)
-    if ("errorCode" in response.text):
-        print(response.text)
-    else:
-        description = response.json()['description']
-        print(f"抽奖获得{description}")
+    #response = s.get(url,headers=headers)
+    #if ("errorCode" in response.text):
+    #    print(response.text)
+    #else:
+    #    description = response.json()['description']
+    #    print(f"抽奖获得{description}")
     #response = s.get(url2,headers=headers)
     #if ("errorCode" in response.text):
     #    print(response.text)
